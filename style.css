@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding:0px;
+    border-radius: 0;
+    font-family: Arial;
+}
+body{
+    background-image: url("image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    height: 500px;
+    width: 450px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 8%;
+     transition: all 1s ease-in 1s;
+     transform:scale(1.2);
+    background-color: transparent;
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    color:white;
+    border:none;
+   
+}
+.container h1{
+    font-size: 36px;
+    color:aqua;
+} 
+.container .text{
+     
+    position:relative;
+    top:7%;
+}
+.input1 {
+    border: none; 
+    background-color: black;
+    background-color: transparent;
+    width: 270px;
+    font-size: 22px;
+    margin-top: 40px;
+    color: white;
+    outline: none;
+    border-bottom: 2px solid white; 
+}
+.input2 {
+    border:none;
+    background-color: black;
+    background-color: transparent;
+    width: 270px;
+    font-size: 22px;
+    margin-top: 40px;
+    color: white;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+.text1 button {
+    width: 240px;
+    height: 44px;
+    background-color:black;
+    color:white;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 0px;
+    margin: 15px 0px;
+}
+button:hover{
+    transition: all 1s ease-in 1s;
+     transform:scale(1.2);
+    border:2px solid aqua;
+    color:white;
+    font-size: 25px;
+    background-color: black;
+}
+button:active{
+    transition: all 1s ease-in 1s;
+   transform:skew(25deg);
+    border:2px solid red;
+    color:white;
+    font-size: 25px;
+    background-color: black;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span{
+    color: aqua;
+    cursor: pointer;
+}
+.input1 i{
+    font-size:15px;
+}
